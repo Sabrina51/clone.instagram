@@ -10,22 +10,20 @@
 
 html {
     width: 100%;
-    /*min-height: 100vh;*/
-    margin: 0; /*ESPAÇO ENTRE ELEMENTOS*/ /* tava 0 */
-    padding: 0; /*ESPAÇO ENTRE BORDAS E CONTEÚDO*/
-    justify-content: center; /*PÕE O CONTEÚDO NO CENTRO*/
+    margin: 0;
+    padding: 0;
+    justify-content: center;
 
 }
 
 body {
-    /*min-height: 100vh;*/
     background-color: rgb(250, 250, 250);
     font-size: 14px;
     
 }
 
 footer {
-    text-align: center; /* DEIXA O TEXTO NO CENTRO*/
+    text-align: center;
     justify-content: center;
     font-size: 12px;
     color: rgb(160, 160,160); ;
@@ -38,9 +36,9 @@ a {
 }
 
 .instagram-wrapper {
-    display: flex; /*TODOS OS ITENS FICARAM EM LINHA OCUPANDO TODO O ESPAÇO. ALINHAM OS ELEMENTOS EIXO Y*/
-    align-items: center; /*ALINHAMENTO VERTICAL EIXO X*/
-    justify-content: center; /* ORIZONTA ALINHAMENTO DA ESQUERDA PARA A DIREITA*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 2px 0 0 0;
 
 }
@@ -54,8 +52,8 @@ a {
 
 .instagram-continue {
     display: flex;
-    align-items: center; /* HORIZONTAL */
-    justify-content: space-around; /* VERTICAL*/
+    align-items: center;
+    justify-content: space-around;
     flex-direction: column;
     min-height: 34rem;
     min-width: 22rem;
@@ -74,7 +72,7 @@ a {
     border-radius: 1px;
 }
 
-.group:nth-child(1) { /* nth child é pra setar um estilo uma modificação dentro de uma classe*/
+.group:nth-child(1) {
     min-height: 20rem;
 }
 
@@ -160,7 +158,6 @@ a {
     height: 40px;   
     
 }
-
 
 .footer-wrapper {
     padding: 30px;
